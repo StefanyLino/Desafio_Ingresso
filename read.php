@@ -19,6 +19,7 @@ if ($result->num_rows > 0) {
               </tr>";
     }
     echo "</table>"; 
+    
 } else {
     echo "Nenhum usuário encontrado."; 
 }
