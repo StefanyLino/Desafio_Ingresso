@@ -41,4 +41,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </form>
     <a href="index.php">Cancelar</a> 
 </body>
+
 </html> 
