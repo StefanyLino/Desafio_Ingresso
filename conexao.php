@@ -9,5 +9,4 @@
     if($conn -> connect_error){
         echo "Erro de Conexão" . $conn->connect_error;
     }
-
 ?>
