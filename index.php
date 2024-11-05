@@ -23,7 +23,7 @@
             <label>Tipo:</label>
             <input type="text" name="tipo" required>
         </div>
-        <div class="botao">
+        <div class="botao1">
             <input type="submit" value="Adicionar Usuário">
             </div>
             </div>
