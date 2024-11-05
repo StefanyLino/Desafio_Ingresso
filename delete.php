@@ -11,4 +11,5 @@ if (isset($_GET['id'])) {
         echo "Erro: " . $conn->error; 
     }
 }
+
 ?>
