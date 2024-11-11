@@ -1,0 +1,80 @@
+Reseta o estilo global
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+table {
+    width: 50%; 
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; 
+    margin: 0 auto;  
+}
+
+th, td {
+    padding: 10px 15px; 
+    text-align: center;
+    font-size: 14px; 
+}
+
+th {
+    background-color: #9D785C; 
+    color: white;
+}
+
+td {
+    border-bottom: 1px solid #000000;
+}
+
+tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+tr:hover {
+    background-color: #d8d8d8;
+}
+
+a {
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    color: #fff;
+    margin-right: 10px;
+    font-size: 14px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+a:hover {
+    transform: scale(1.05); 
+}
+
+a:active {
+    transform: scale(1); /* Retorno ao tamanho original */
+}
+
+a.delete {
+    background-color: #e74c3c;
+}
+
+a.delete:hover {
+    background-color: #ae3426;
+}
+
+a.update {
+    background-color: #2ecc71;
+}
+
+a.update:hover {
+    background-color: #219b53;
+}
+
+.no-data {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+    margin-top: 20px;
+}
