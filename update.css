@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+.tudo{
+    margin-top: 180px;
+}
+h1{
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+}
+
+body {
+    color: #000;
+    font-weight: 500;
+    background: url(Fundo.png) no-repeat;
+    background-size: cover;  
+}
+
+.adicionar {
+    height: 100%;
+    margin: 0;  
+    display: flex;
+    justify-content: center;  
+    align-items: center; 
+}
+
+.c{
+    display: flex;
+    gap:10px;
+      flex-wrap: nowrap;
+    height: 100%;
+    margin: 0;  
+    align-items: center; 
+}
+
+.adicionar {
+    justify-content: center;
+    display: flex;
+    gap: 10px; 
+}
+
+.adicionar label {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    align-items: center;
+}
+
+.tipo{
+    font-weight: bold; 
+    border: none;
+}
+
+.botao {
+    display: inline-block;
+    text-align: center;
+}
+
+.botao input[type="submit"] {
+    padding: 3px 15px;
+    font-size: 15px;
+    color: #fff;
+    background: linear-gradient(90deg, #9D785C, #A57754);
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.botao input[type="submit"]:hover {
+    background: linear-gradient(90deg, #F3D499, #FFE7BA);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.botao input[type="submit"]:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cancelar{
+    padding: 20px;
+    text-align: center;
+    font-size: 20px; 
+}
