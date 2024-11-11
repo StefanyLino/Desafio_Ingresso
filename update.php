@@ -26,20 +26,31 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="update.css">
     <title>Atualizar Comprador</title>
 </head>
 <body>
-    <h1>COMPRADORES</h1>
-    <form action="" method="POST">
-        <label>Nome:</label>
-        <input type="text" name="nome" value="<?php echo $usuario['nome']; ?>" required>
-        <label>Idade:</label>
-        <input type="number" name="idade" value="<?php echo $usuario['idade']; ?>" required>
-        <label>Tipo:</label>
-        <input type="text" name="tipo" value="<?php echo $usuario['tipo']; ?>" required>
-        <input type="submit" value="Atualizar">
-    </form>
-    <a href="index.php">Cancelar</a> 
+    <div class="tudo">
+        <h1>COMPRADORES</h1>
+        <div class="adicionar">
+            <form action="" method="POST">
+                <div class="c">
+                    <label>Nome:</label>
+                    <input type="text" name="nome" value="<?php echo $usuario['nome']; ?>" required>
+                    <label>Idade:</label>
+                    <input type="number" name="idade" value="<?php echo $usuario['idade']; ?>" required>
+                    <label>Tipo:</label>
+                    <input type="text" name="tipo" value="<?php echo $usuario['tipo']; ?>" required>
+                    <div class="botao">
+                        <input type="submit" value="Atualizar">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="cancelar">
+        <a href="index.php">CANCELAR</a>
+    </div> 
 </body>
 
 </html> 
