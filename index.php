@@ -11,22 +11,26 @@
 <div class="adicionar">
     <form action="store.php" method="POST">
         <div class="c">
-        <div class="nome">
-            <label>Nome:</label>
-            <input type="text" name="nome" required>
-        </div>
-        <div class="idade">
-            <label>Idade:</label>
-            <input type="number" name="idade" required>
-        </div>
-        <div class="tipo">
-            <label>Tipo:</label>
-            <input type="text" name="tipo" required>
-        </div>
-        <div class="botao1">
-            <input type="submit" value="Adicionar Usuário">
+            <div class="nome">
+                <label>Nome:</label>
+                <input type="text" name="nome" placeholder="Digite aqui..." required>
             </div>
+            <div class="idade">
+                <label>Idade:</label>
+                <input type="number" name="idade" placeholder="Digite aqui..." required>
             </div>
+            <div class="tipo">
+                <label>Tipo:</label>
+                <select name="tipo" id="ingresso" required>
+                    <option value="VIP">VIP</option>
+                    <option value="Regular">Regular</option>
+                    <option value="Basico">Básico</option>
+                </select>
+            </div>
+            <div class="botao">
+                <input type="submit" value="Adicionar Usuário">
+            </div>
+        </div>
     </form>
 </div>
     <hr>
