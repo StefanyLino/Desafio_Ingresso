@@ -20,16 +20,19 @@ body {
     gap:10px;
       flex-wrap: nowrap;
 }
+
 h1{
     padding: 20px;
     text-align: center;
     font-size: 35px;
+    margin-top: 70px;
 }
 
 .adicionar {
     justify-content: center;
     display: flex;
     gap: 10px; 
+    align-items: center;
 }
 
 .adicionar label {
@@ -38,8 +41,45 @@ h1{
     font-weight: bold;
 }
 
+.tipo{
+    font-weight: bold; 
+    border: none;
+}
+
 .botao {
-    margin-left: 10px; 
-    margin-top: 24px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 23px;
+}
+
+.botao input[type="submit"] {
+    padding: 3px 15px; 
+    font-size: 15px; 
+    color: #fff;
+    background: linear-gradient(90deg, #9D785C, #a57754);
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.botao input[type="submit"]:hover {
+    background: linear-gradient(90deg, #F3D499, #ffe7ba);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
     color: #000;
-} 
+}
+
+.botao input[type="submit"]:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2{
+    padding: 20px;
+    text-align: center;
+    font-size: 35px; 
+    margin-top: 20px;
+}
